@@ -1,0 +1,75 @@
+.navigation-bar{	
+	background-color: skyblue;
+	position: fixed;
+	width: 100%;
+	height: 8vh;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+
+}
+.logo{
+	font-family: Engravers MT;
+	font-size: 30px;
+	color: orangered;
+	background: ;
+}
+.section{
+	height: 100vh;
+	width: 100vw;
+	background-color: cornsilk;
+	border: 2px solid;
+}
+.allsections{
+	position: relative;
+	top: 80px;
+	width: 100%;
+}
+.section h1{
+	text-align: center;
+	margin-top: 250px;
+}
+html{
+	scroll-behavior: smooth;
+}
+.home-section{
+	border: none;
+	width: 100%;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: 90% 2%;
+}
+.myinfo{
+	height: 450px;
+	width: 50%;
+	margin: 10% 4%;
+}
+.info-home{
+	font-size: 30px;
+	font-family: Elephant;
+}
+.myname{
+	font-size: 50px;
+}
+.fsjd{
+	font-family: Elephant; 
+	font-size: 30px;
+	color: orangered;
+}
+.rsm{
+	height: 60px;
+	width: 120px;
+	margin: 20px 30px;
+	border: none;
+	background-color: royalblue;
+	color: white;
+	border-radius: 10px;
+	font-family: Arial Black;
+}
+.rsm:hover{
+	background-color: white;
+	color: royalblue;
+	border: 3px solid royalblue;
+	transform: scale(1.1);
+}
